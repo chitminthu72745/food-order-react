@@ -18,3 +18,15 @@
   background-color: #641e03;
   border-color: #641e03;
 }
+@media (max-width: 979px) {
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .form button {
+    border-radius: 100px;
+    padding: 0.3rem 0.9rem !important;
+    font-size: 13px;
+  }
+}
